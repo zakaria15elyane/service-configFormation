@@ -126,3 +126,207 @@ Caused by: java.lang.IllegalArgumentException: Value must only contain valid cha
 2020-12-16 21:29:03,630 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-12-16 21:29:03,631 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Initializing Servlet 'dispatcherServlet'
 2020-12-16 21:29:03,634 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Completed initialization in 2 ms
+2020-12-16 21:35:08,051 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8888-exec-10] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-12-16 21:35:27,377 [INFO] org.sid.ServiceConfigApplication [main] Starting ServiceConfigApplication using Java 1.8.0_212 on DESKTOP-HMG7K0I with PID 9164 (C:\Users\DELL\Desktop\elmouden\service-backend\service-config\target\classes started by DELL in C:\Users\DELL\Desktop\elmouden\service-backend\service-config)
+2020-12-16 21:35:27,381 [INFO] org.sid.ServiceConfigApplication [main] No active profile set, falling back to default profiles: default
+2020-12-16 21:35:29,346 [INFO] org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=35d6596c-e16f-3957-8e80-aa2a5109db36
+2020-12-16 21:35:30,135 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2020-12-16 21:35:30,152 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-12-16 21:35:30,152 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-16 21:35:30,335 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-16 21:35:30,336 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2863 ms
+2020-12-16 21:35:31,040 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 21:35:33,012 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-12-16 21:35:33,093 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-16 21:35:33,506 [INFO] org.sid.ServiceConfigApplication [main] Started ServiceConfigApplication in 7.201 seconds (JVM running for 8.08)
+2020-12-16 21:35:39,986 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-16 21:35:39,986 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-16 21:35:39,991 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Completed initialization in 4 ms
+2020-12-16 21:35:44,589 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8888-exec-2] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-12-16 21:41:47,943 [INFO] org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository [http-nio-8888-exec-2] Fetched for remote master and found 1 updates
+2020-12-16 21:43:01,737 [INFO] org.sid.ServiceConfigApplication [main] Starting ServiceConfigApplication using Java 1.8.0_212 on DESKTOP-HMG7K0I with PID 13332 (C:\Users\DELL\Desktop\elmouden\service-backend\service-config\target\classes started by DELL in C:\Users\DELL\Desktop\elmouden\service-backend\service-config)
+2020-12-16 21:43:01,740 [INFO] org.sid.ServiceConfigApplication [main] No active profile set, falling back to default profiles: default
+2020-12-16 21:43:03,766 [INFO] org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=35d6596c-e16f-3957-8e80-aa2a5109db36
+2020-12-16 21:43:04,582 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8889 (http)
+2020-12-16 21:43:04,597 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-12-16 21:43:04,597 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-16 21:43:04,765 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-16 21:43:04,765 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2927 ms
+2020-12-16 21:43:05,461 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 21:43:07,215 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-12-16 21:43:07,301 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8889 (http) with context path ''
+2020-12-16 21:43:07,788 [INFO] org.sid.ServiceConfigApplication [main] Started ServiceConfigApplication in 7.152 seconds (JVM running for 8.13)
+2020-12-16 21:43:23,598 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8889-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-16 21:43:23,598 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8889-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-16 21:43:23,601 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8889-exec-1] Completed initialization in 2 ms
+2020-12-16 21:43:25,539 [WARN] org.apache.http.client.protocol.ResponseProcessCookies [http-nio-8889-exec-1] Invalid cookie header: "Set-Cookie: _octo=GH1.1.684403732.1608151404; domain=.github.com; path=/; expires=Thu, 16 Dec 2021 20:43:24 GMT; secure; SameSite=Lax". Invalid 'expires' attribute: Thu, 16 Dec 2021 20:43:24 GMT
+2020-12-16 21:43:25,604 [WARN] org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository [http-nio-8889-exec-1] Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.InvalidRemoteException: Invalid remote: origin
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:251)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:306)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:200)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:570)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.copyRepository(JGitEnvironmentRepository.java:545)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.createGitClient(JGitEnvironmentRepository.java:528)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:265)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.getLocations(JGitEnvironmentRepository.java:243)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.getLocations(MultipleJGitEnvironmentRepository.java:139)
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOne(AbstractScmEnvironmentRepository.java:55)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOne(MultipleJGitEnvironmentRepository.java:173)
+	at org.springframework.cloud.config.server.environment.CompositeEnvironmentRepository.findOne(CompositeEnvironmentRepository.java:64)
+	at org.springframework.cloud.config.server.environment.EnvironmentEncryptorEnvironmentRepository.findOne(EnvironmentEncryptorEnvironmentRepository.java:60)
+	at org.springframework.cloud.config.server.environment.EnvironmentController.getEnvironment(EnvironmentController.java:126)
+	at org.springframework.cloud.config.server.environment.EnvironmentController.defaultLabel(EnvironmentController.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:490)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at org.springframework.cloud.config.server.environment.EnvironmentController$$EnhancerBySpringCGLIB$$cb9b0695.defaultLabel(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/zakaria15elyane/config/tree/master: https://github.com/zakaria15elyane/config/tree/master/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.transport.TransportHttp.createNotFoundException(TransportHttp.java:496)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:527)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:362)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:137)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:123)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1271)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:243)
+	... 78 common frames omitted
+2020-12-16 21:43:58,413 [INFO] org.sid.ServiceConfigApplication [main] Starting ServiceConfigApplication using Java 1.8.0_212 on DESKTOP-HMG7K0I with PID 11756 (C:\Users\DELL\Desktop\elmouden\service-backend\service-config\target\classes started by DELL in C:\Users\DELL\Desktop\elmouden\service-backend\service-config)
+2020-12-16 21:43:58,417 [INFO] org.sid.ServiceConfigApplication [main] No active profile set, falling back to default profiles: default
+2020-12-16 21:44:00,400 [INFO] org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=35d6596c-e16f-3957-8e80-aa2a5109db36
+2020-12-16 21:44:01,138 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8889 (http)
+2020-12-16 21:44:01,152 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-12-16 21:44:01,152 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-16 21:44:01,309 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-16 21:44:01,309 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2807 ms
+2020-12-16 21:44:02,020 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 21:44:03,872 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-12-16 21:44:03,949 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8889 (http) with context path ''
+2020-12-16 21:44:04,378 [INFO] org.sid.ServiceConfigApplication [main] Started ServiceConfigApplication in 7.05 seconds (JVM running for 7.827)
+2020-12-16 21:44:13,250 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8889-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-16 21:44:13,250 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8889-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-16 21:44:13,254 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8889-exec-1] Completed initialization in 3 ms
+2020-12-16 21:44:13,826 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8889-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 21:44:15,434 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8889-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/git-upload-pack
+2020-12-16 21:44:16,645 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8889-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 21:44:28,971 [INFO] org.sid.ServiceConfigApplication [main] Starting ServiceConfigApplication using Java 1.8.0_212 on DESKTOP-HMG7K0I with PID 8408 (C:\Users\DELL\Desktop\elmouden\service-backend\service-config\target\classes started by DELL in C:\Users\DELL\Desktop\elmouden\service-backend\service-config)
+2020-12-16 21:44:28,975 [INFO] org.sid.ServiceConfigApplication [main] No active profile set, falling back to default profiles: default
+2020-12-16 21:44:31,584 [INFO] org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=35d6596c-e16f-3957-8e80-aa2a5109db36
+2020-12-16 21:44:32,478 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2020-12-16 21:44:32,493 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-12-16 21:44:32,494 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-16 21:44:32,697 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-16 21:44:32,698 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3630 ms
+2020-12-16 21:44:33,481 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 21:44:36,225 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-12-16 21:44:36,329 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-16 21:44:36,571 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-16 21:44:36,572 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-12-16 21:44:36,579 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-2] Completed initialization in 7 ms
+2020-12-16 21:44:37,501 [INFO] org.sid.ServiceConfigApplication [main] Started ServiceConfigApplication in 9.795 seconds (JVM running for 10.733)
+2020-12-16 21:44:37,504 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-2] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 21:44:39,265 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-2] No custom http config found for URL: https://github.com/zakaria15elyane/config/git-upload-pack
+2020-12-16 21:44:40,513 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-2] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 21:44:41,608 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 21:56:20,626 [INFO] org.sid.ServiceConfigApplication [main] Starting ServiceConfigApplication using Java 1.8.0_212 on DESKTOP-HMG7K0I with PID 5220 (C:\Users\DELL\Desktop\elmouden\service-backend\service-config\target\classes started by DELL in C:\Users\DELL\Desktop\elmouden\service-backend\service-config)
+2020-12-16 21:56:20,629 [INFO] org.sid.ServiceConfigApplication [main] No active profile set, falling back to default profiles: default
+2020-12-16 21:56:22,534 [INFO] org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=35d6596c-e16f-3957-8e80-aa2a5109db36
+2020-12-16 21:56:23,351 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2020-12-16 21:56:23,364 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-12-16 21:56:23,365 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-16 21:56:23,516 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-16 21:56:23,517 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2783 ms
+2020-12-16 21:56:24,106 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 21:56:25,762 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-12-16 21:56:25,833 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-16 21:56:26,291 [INFO] org.sid.ServiceConfigApplication [main] Started ServiceConfigApplication in 6.713 seconds (JVM running for 7.543)
+2020-12-16 21:56:35,369 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-16 21:56:35,370 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-16 21:56:35,372 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Completed initialization in 2 ms
+2020-12-16 21:56:35,897 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 21:56:37,317 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/git-upload-pack
+2020-12-16 21:56:38,429 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 22:25:15,471 [INFO] org.sid.ServiceConfigApplication [main] Starting ServiceConfigApplication using Java 1.8.0_212 on DESKTOP-HMG7K0I with PID 13528 (C:\Users\DELL\Desktop\elmouden\service-backend\service-config\target\classes started by DELL in C:\Users\DELL\Desktop\elmouden\service-backend\service-config)
+2020-12-16 22:25:15,475 [INFO] org.sid.ServiceConfigApplication [main] No active profile set, falling back to default profiles: default
+2020-12-16 22:25:17,463 [INFO] org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=35d6596c-e16f-3957-8e80-aa2a5109db36
+2020-12-16 22:25:18,137 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2020-12-16 22:25:18,150 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-12-16 22:25:18,150 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-16 22:25:18,314 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-12-16 22:25:18,314 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2749 ms
+2020-12-16 22:25:18,908 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 22:25:20,782 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-12-16 22:25:20,866 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2020-12-16 22:25:21,312 [INFO] org.sid.ServiceConfigApplication [main] Started ServiceConfigApplication in 6.861 seconds (JVM running for 7.711)
+2020-12-16 22:25:35,165 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-16 22:25:35,165 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-12-16 22:25:35,167 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Completed initialization in 2 ms
+2020-12-16 22:25:35,745 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 22:25:36,944 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/git-upload-pack
+2020-12-16 22:25:37,908 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-1] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 22:25:38,715 [INFO] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-1] Adding property source: file:/C:/Users/DELL/AppData/Local/Temp/config-repo-1274639215806784724/application.properties
+2020-12-16 22:25:41,317 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-2] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 22:25:42,052 [INFO] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-2] Adding property source: file:/C:/Users/DELL/AppData/Local/Temp/config-repo-1274639215806784724/application.properties
+2020-12-16 22:25:42,072 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-4] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 22:25:42,778 [INFO] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-4] Adding property source: file:/C:/Users/DELL/AppData/Local/Temp/config-repo-1274639215806784724/application.properties
+2020-12-16 22:25:42,806 [WARN] org.springframework.cloud.config.server.environment.HttpClientConfigurableHttpConnectionFactory [http-nio-8888-exec-3] No custom http config found for URL: https://github.com/zakaria15elyane/config/info/refs?service=git-upload-pack
+2020-12-16 22:25:43,567 [INFO] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-3] Adding property source: file:/C:/Users/DELL/AppData/Local/Temp/config-repo-1274639215806784724/application.properties
